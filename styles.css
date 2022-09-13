@@ -1,0 +1,94 @@
+* {  
+    box-sizing: border-box;  
+    font-family: 'Roboto', sans-serif;  
+  }  
+  body {  
+    background: rgb(92, 86, 167); 
+    border-radius: 15px;  
+    border: solid black;
+  }  
+  .container {  
+    width: auto;  
+    margin: 20px;  
+    color:black;  
+    border: solid black;
+  }
+  .calc-body {  
+    width: 275px;  
+    margin: auto;  
+    min-height: 400px;  
+    border: solid 1px #3A4655;
+  }   
+  .calc-screen {  
+    background: #1a2839;  
+    width: 100%;  
+    height: 150px;  
+    padding: 20px;  
+  } 
+  .calc-operation {  
+    text-align: right;  
+    color: #727B86;
+    border: solid black;  
+    font-size: 21px;  
+    padding-bottom: 20px;  
+    border-bottom: dotted 1px;  
+  } 
+  .calc-typed {  
+    margin-top: 20px;
+    border: solid black;
+    padding-bottom: 70px;
+    border-bottom: dotted 1px;  
+    font-size: 45px;  
+    text-align: right;  
+    color: #fff;  
+  }  
+  .calc-button-row {  
+    width: 100%;  
+    background: #408eed;  
+  }
+  .button {  
+    width: 25%;  
+    background: #2d4463;  
+    color: #fff;  
+    padding: 20px;  
+    display: inline-block;  
+    font-size: 25px;  
+    text-align: center;  
+    vertical-align: middle;  
+    margin-right: -4px;  
+    border: solid rgba(0, 0, 0, 0.851);
+    border-radius: 5px;
+    border-right: solid 2px #3C4857;  
+    border-bottom: solid 2px #3C4857;   
+  } 
+  .button.i {  
+    color: #AEB3BA;  
+    background: #7d8e00;  
+  }
+  .button.c {  
+    color: #e62f1b;  
+    background: #404D5E;  
+  } 
+  .button.e {
+    background: red;
+    padding-right: 113px;
+  }
+  .button:hover {  
+    background: #E0B612;    
+  }  
+  .button.c:hover {  
+    background: #E0B612;  
+    color: #fff;  
+  }  
+  .button.i:hover {  
+    background: #E0B612;  
+    color: #fff;  
+  }  
+  html {  
+    height: 100vh;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    background-color: #2d3436;    
+    font-family: 'Cookie', cursive;  
+  } 
