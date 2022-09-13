@@ -74,16 +74,20 @@
     padding-right: 113px;
   }
   .button:hover {  
-    background: #E0B612;    
+    background: #126be0;    
   }  
   .button.c:hover {  
-    background: #E0B612;  
+    background: #8012e0;  
     color: #fff;  
   }  
   .button.i:hover {  
     background: #E0B612;  
     color: #fff;  
   }  
+  .button.e:hover {
+    background: rgb(4, 210, 4);
+    color: #fff;
+  }
   html {  
     height: 100vh;  
     display: flex;  
